@@ -1,0 +1,58 @@
+body{
+    background: url("images/tree.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main{ height: 200px;
+    width: 400px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+    text-align: center;
+
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container-fluid{
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: auto;
+      }
+      
+
+.without_ampm::-webkit-datetime-edit-ampm-field {
+    display: none;
+  }
+  input[type=time]::-webkit-clear-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance:none;
+    appearance: none;
+    margin: -10px; 
+  }
+
+  .display{
+      text-align: center;
+      font-size: 100px;
+      z-index: 1;
+      line-height:3em;
+  }
+
+  .date{
+    text-align: right;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+.title{    display: inline-block; }
